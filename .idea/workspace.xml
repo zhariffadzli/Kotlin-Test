@@ -34,13 +34,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="1" />
-          <entry key="kt" value="25" />
+          <entry key="kt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="25" />
+          <entry key="Kotlin" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -119,11 +119,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimpleClass.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
               <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ClassInheritance.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#0#76#0" expanded="true" />
               </folding>
@@ -187,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/ArrayListDemo.kt" />
         <option value="$PROJECT_DIR$/src/function.kt" />
         <option value="$PROJECT_DIR$/src/SimpleClass.kt" />
+        <option value="$PROJECT_DIR$/src/ClassInheritance.kt" />
       </list>
     </option>
   </component>
@@ -242,7 +255,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540214917290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540240626849" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/git-cmd.exe" />
     <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
@@ -258,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.SimpleClassKt">
+  <component name="RunManager" selected="Kotlin.ClassInheritanceKt">
     <configuration name="ArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinUdemyDemo1" />
       <option name="VM_PARAMETERS" />
@@ -280,6 +293,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="ArrayListDemoKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassInheritanceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinUdemyDemo1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ClassInheritanceKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -311,33 +337,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinUdemyDemo1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="WhileLoopKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Kotlin.ArrayKt" />
-      <item itemvalue="Kotlin.WhileLoopKt" />
       <item itemvalue="Kotlin.ArrayListDemoKt" />
       <item itemvalue="Kotlin.FunctionKt" />
       <item itemvalue="Kotlin.SimpleClassKt" />
+      <item itemvalue="Kotlin.ClassInheritanceKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ClassInheritanceKt" />
         <item itemvalue="Kotlin.SimpleClassKt" />
         <item itemvalue="Kotlin.FunctionKt" />
         <item itemvalue="Kotlin.ArrayKt" />
         <item itemvalue="Kotlin.ArrayListDemoKt" />
-        <item itemvalue="Kotlin.WhileLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -367,15 +380,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49921507" weight="0.3294509" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4667171" visible="true" weight="0.3180328" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.46596065" visible="true" weight="0.3180328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5332829" side_tool="true" visible="true" weight="0.3180328" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5340393" side_tool="true" visible="true" weight="0.3180328" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.44583988" weight="0.32445922" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.44478065" weight="0.3229508" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -571,6 +584,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClassInheritance.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#0#76#0" expanded="true" />
           </folding>
